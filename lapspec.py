@@ -1,4 +1,4 @@
-import requests
+#FFFFFFimport requests
 import bs4
 from bs4 import BeautifulSoup
 import csv
@@ -20,3 +20,5 @@ for x in results:
 		CSV_writer.writerow([specs])
 
 cav_file.close()
+
+#gitchange
